@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="w-[100vw] h-[100vh] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 gap-10 flex flex-col items-center justify-center">
+        
+        <div class="text-[#702459 font-medium text-[20px]">Increment And Decrement </div>
+        <div class="bg-red-500 flex text-[25px] text-[#344151] rounded-sm gap-12 p-3 px-5">
+            <button onclick="decrement()" class="border-r-2 border-[#bfbfbf]">
+                <i class="fa fa-minus" aria-hidden="true"></i>            
+            </button>
+            <div id="counter" class="font-bold">
+                0
+            </div>
+            <button onclick="increment()" class="border-l-2 border-[#bfbfbf]">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </button>
+        </div>
+        
+    </div>
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
+</body>
+</html>
